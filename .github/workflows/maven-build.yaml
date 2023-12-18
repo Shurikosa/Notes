@@ -24,7 +24,7 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        maven-version: '3.8.7'
+        maven-version: '3.8.4'
 
     - name: Run Maven build and test
       run: mvn clean install
