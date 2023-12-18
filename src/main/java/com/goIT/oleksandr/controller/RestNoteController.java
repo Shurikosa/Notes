@@ -48,8 +48,6 @@ public final class RestNoteController {
         Note existingNote = noteService.getById(id);
         existingNote.setTitle(updatedNote.getTitle());
         existingNote.setContent(updatedNote.getContent());
-
         noteService.add(existingNote);
     }
-
 }
